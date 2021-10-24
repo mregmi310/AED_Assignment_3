@@ -121,25 +121,28 @@
                   <Component id="jScrollPane1" pref="1108" max="32767" attributes="0"/>
                   <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
               </Group>
-              <Group type="102" alignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
                   <EmptySpace min="-2" pref="57" max="-2" attributes="0"/>
                   <Component id="jLabel3" min="-2" pref="475" max="-2" attributes="0"/>
                   <EmptySpace max="32767" attributes="0"/>
-                  <Component id="jLabel5" min="-2" pref="475" max="-2" attributes="0"/>
-                  <EmptySpace min="-2" pref="62" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jLabel5" min="-2" pref="475" max="-2" attributes="0"/>
+                      <Component id="jLabel6" min="-2" pref="460" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="55" max="-2" attributes="0"/>
               </Group>
               <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
-                  <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
-                      <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace pref="614" max="32767" attributes="0"/>
-                  </Group>
-              </Group>
-              <Group type="103" rootIndex="2" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="1" attributes="0">
                       <EmptySpace pref="607" max="32767" attributes="0"/>
                       <Component id="jLabel7" min="-2" pref="475" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="64" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <Group type="103" rootIndex="2" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="60" max="-2" attributes="0"/>
+                      <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="604" max="32767" attributes="0"/>
                   </Group>
               </Group>
           </Group>
@@ -149,7 +152,9 @@
               <Group type="102" alignment="0" attributes="0">
                   <EmptySpace max="-2" attributes="0"/>
                   <Component id="jScrollPane1" min="-2" pref="127" max="-2" attributes="0"/>
-                  <EmptySpace pref="468" max="32767" attributes="0"/>
+                  <EmptySpace pref="137" max="32767" attributes="0"/>
+                  <Component id="jLabel6" min="-2" pref="280" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="51" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
                       <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
@@ -158,16 +163,16 @@
               </Group>
               <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace min="-2" pref="254" max="-2" attributes="0"/>
-                      <Component id="jLabel6" min="-2" pref="280" max="-2" attributes="0"/>
-                      <EmptySpace pref="520" max="32767" attributes="0"/>
+                      <EmptySpace min="-2" pref="258" max="-2" attributes="0"/>
+                      <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="506" max="32767" attributes="0"/>
                   </Group>
               </Group>
               <Group type="103" rootIndex="2" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace min="-2" pref="258" max="-2" attributes="0"/>
-                      <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace pref="506" max="32767" attributes="0"/>
+                      <EmptySpace min="-2" pref="264" max="-2" attributes="0"/>
+                      <Component id="jLabel8" min="-2" pref="280" max="-2" attributes="0"/>
+                      <EmptySpace pref="510" max="32767" attributes="0"/>
                   </Group>
               </Group>
           </Group>
@@ -275,7 +280,7 @@
         <Component class="javax.swing.JLabel" name="jLabel6">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/Resources/AvergageGPA_Degree.jpg"/>
+              <Image iconType="3" name="/Resources/Employment_percent.jpg"/>
             </Property>
           </Properties>
         </Component>
@@ -283,6 +288,13 @@
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
               <Image iconType="3" name="/Resources/Employment_percent.jpg"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel8">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/Resources/AvergageGPA_Degree.jpg"/>
             </Property>
           </Properties>
         </Component>
