@@ -83,14 +83,14 @@ public class Dashboard_Degree extends javax.swing.JFrame {
 
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {"MSCS", "Big Data / UE&D ", "Khoury College of Engineering", "3", "100k"},
-                {"MSIS", "AED / Web", "COE", "3.5", "100k"},
-                {"MSEM", "EP / IS", "COE", "3.4", "60K"},
-                {"MSIE", "SCE / Data Mining", "COE", "3.2", "90K"},
-                {"MIS", "DMDD / DS ", "COE", "3.3", "70K"}
+                {"MSCS", "3", "100k", "90"},
+                {"MSIS", "3.5", "100k", "83"},
+                {"MSEM", "3.4", "60K", "76"},
+                {"MSIE", "3.2", "90K", "98"},
+                {"MIS", "3.3", "70K", "95"}
             },
             new String [] {
-                "Degree Name", "Courses", "College", "Average GPA", "Average Salary"
+                "Degree Name", "Average GPA", "Average Salary", "Percentage Placements"
             }
         ));
         jScrollPane1.setViewportView(jTable1);
@@ -137,8 +137,8 @@ public class Dashboard_Degree extends javax.swing.JFrame {
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 127, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 137, Short.MAX_VALUE)
-                .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 280, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 112, Short.MAX_VALUE)
+                .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 305, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(51, 51, 51)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel3)
