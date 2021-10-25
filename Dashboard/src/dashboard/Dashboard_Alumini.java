@@ -156,7 +156,7 @@ public class Dashboard_Alumini extends javax.swing.JFrame {
                     .addComponent(jButton8)))
         );
 
-        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Resources/GPA_Salary.jpg"))); // NOI18N
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Resources/GPA_Slalary_Course.jpg"))); // NOI18N
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
